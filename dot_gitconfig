@@ -1,3 +1,3 @@
 [user]
-	name = Krzysztof Drozd
-	email = drozd.krzysiek@gmail.com
+	name = "{{ .name }}"
+	email = "{{ .email }}"
