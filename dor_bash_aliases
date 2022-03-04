@@ -1,0 +1,15 @@
+# EXA is the new LS
+alias ls='exa'                                                           # ls
+alias l='exa -l'                                                         # list, size, type, git
+alias ll='exa -lbGF'                                                     # long list
+alias la='exa --la'                                                      # all list
+
+# speciality views
+alias lS='exa -1'			                                            # one column, just names
+alias lt='exa --tree --level=2'                                         # tree
+
+
+
+# BAT is the new cat
+
+alias cat='bat'
